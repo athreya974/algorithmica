@@ -1,0 +1,5 @@
+Arrays:
+
+1.Try to see if sorting helps
+2.Try traversing from both ends
+3.
