@@ -45,4 +45,10 @@ public class AdditiveNumber {
         //if num starts with x3 from offset start means x3 is found. So look for next number.
         return num.startsWith(x3.toString(), start) && isValid(num, start + x3.toString().length(), x2, x3);
     }
+
+    public static void main (String args[]){
+        AdditiveNumber additiveNumber = new AdditiveNumber();
+        String input="199100199298";
+        System.out.println(additiveNumber.isAdditiveNumber(input));
+    }
 }
